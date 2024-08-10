@@ -1,0 +1,12 @@
+name: Book-Rec-env
+channels:
+  - defaults
+dependencies:
+  - python
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - flask
+  - flask_cors
+prefix: C:\Users\PythonCoding\Anaconda3\envs\Book-Rec-env

@@ -1,0 +1,34 @@
+2024-07-23 21:50:53,624 - __main__ - INFO - Welcome to Book Recommendation System
+2024-07-23 21:50:53,624 - astrapy.database - INFO - Instantiating a new (core) AstraDB
+2024-07-23 21:50:53,636 - astrapy.database - INFO - getting collection names
+2024-07-23 21:50:55,890 - httpx - INFO - HTTP Request: POST https://5df008b3-dfbe-4fbc-9703-a304374d9cc4-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2024-07-23 21:50:55,890 - astrapy.database - INFO - finished getting collection names
+2024-07-23 21:50:55,890 - database - INFO - Connected to Astra DB: ['books']
+2024-07-23 21:50:55,890 - astrapy.database - INFO - Instantiating a new (core) AstraDB
+2024-07-23 21:50:55,890 - astrapy.cursors - INFO - creating iterator on 'books'
+2024-07-23 21:50:55,890 - astrapy.cursors - INFO - finished creating iterator on 'books'
+2024-07-23 21:50:56,824 - httpx - INFO - HTTP Request: POST https://5df008b3-dfbe-4fbc-9703-a304374d9cc4-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/books "HTTP/1.1 200 OK"
+2024-07-23 21:50:57,146 - httpx - INFO - HTTP Request: POST https://5df008b3-dfbe-4fbc-9703-a304374d9cc4-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/books "HTTP/1.1 200 OK"
+2024-07-23 21:50:57,462 - httpx - INFO - HTTP Request: POST https://5df008b3-dfbe-4fbc-9703-a304374d9cc4-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/books "HTTP/1.1 200 OK"
+2024-07-23 21:50:57,824 - httpx - INFO - HTTP Request: POST https://5df008b3-dfbe-4fbc-9703-a304374d9cc4-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/books "HTTP/1.1 200 OK"
+2024-07-23 21:50:58,144 - httpx - INFO - HTTP Request: POST https://5df008b3-dfbe-4fbc-9703-a304374d9cc4-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/books "HTTP/1.1 200 OK"
+2024-07-23 21:50:58,478 - httpx - INFO - HTTP Request: POST https://5df008b3-dfbe-4fbc-9703-a304374d9cc4-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/books "HTTP/1.1 200 OK"
+2024-07-23 21:50:58,795 - httpx - INFO - HTTP Request: POST https://5df008b3-dfbe-4fbc-9703-a304374d9cc4-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/books "HTTP/1.1 200 OK"
+2024-07-23 21:50:59,111 - httpx - INFO - HTTP Request: POST https://5df008b3-dfbe-4fbc-9703-a304374d9cc4-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/books "HTTP/1.1 200 OK"
+2024-07-23 21:50:59,427 - httpx - INFO - HTTP Request: POST https://5df008b3-dfbe-4fbc-9703-a304374d9cc4-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/books "HTTP/1.1 200 OK"
+2024-07-23 21:50:59,792 - httpx - INFO - HTTP Request: POST https://5df008b3-dfbe-4fbc-9703-a304374d9cc4-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/books "HTTP/1.1 200 OK"
+2024-07-23 21:51:00,120 - httpx - INFO - HTTP Request: POST https://5df008b3-dfbe-4fbc-9703-a304374d9cc4-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/books "HTTP/1.1 200 OK"
+2024-07-23 21:51:00,120 - database - INFO - Dataset loaded successfully
+2024-07-23 21:51:00,120 - eda - INFO - Exploring dataset
+2024-07-23 21:51:00,165 - eda - INFO - Dataset exploration complete
+2024-07-23 21:51:00,171 - eda - INFO - Plotting distributions
+2024-07-23 21:51:00,385 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-07-23 21:51:00,413 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-07-23 21:51:05,920 - preprocessing - INFO - Preprocessing data
+2024-07-23 21:51:05,967 - preprocessing - INFO - Data preprocessing complete
+2024-07-23 21:51:05,970 - model - INFO - Building recommendation model
+2024-07-23 21:51:05,970 - preprocessing - INFO - Preprocessing data
+2024-07-23 21:51:06,005 - preprocessing - INFO - Data preprocessing complete
+2024-07-23 21:51:06,038 - model - INFO - Building recommendation model
+2024-07-23 21:51:06,038 - preprocessing - INFO - Preprocessing data
+2024-07-23 21:51:06,054 - preprocessing - INFO - Data preprocessing complete
