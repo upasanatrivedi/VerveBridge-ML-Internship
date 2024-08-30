@@ -1,0 +1,212 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #737ec0; /* soft blue background */
+    color: #041941; /* dark gray text */
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #c1c1f7; /* light beige background */
+    border: 1px solid #7e99ca; /* light brown border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #01091a; /* dark blue text */
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 28px; /* reduced font size */
+    font-family: 'Roboto', sans-serif;
+    color: #130330;
+
+}
+
+h2 {
+    font-size: 20px; /* reduced font size */
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px; /* reduced font size */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #03113d; /* dark gray text */
+    font-size: 14px; /* reduced font size */
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    height: 36px; /* reduced height */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* reduced font size */
+}
+
+input[type="text"]:focus, input[type="number"]:focus, select:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+    width: 100%;
+    height: 36px; /* reduced height */
+    background-color: #0ca038; /* blue button */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* reduced font size */
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #23527c; /* darker blue button on hover */
+}
+
+/* Calculator Page Styles */
+
+.calculator-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.calculator-container h2 {
+    font-size: 20px; /* reduced font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #337ab7;
+}
+
+.calculator-container .form-group {
+    margin-bottom: 20px;
+}
+
+.calculator-container .form-group label {
+    font-size: 14px; /* reduced font size */
+    margin-bottom: 10px;
+    color: #020635;
+}
+
+.calculator-container .form-group input[type="text"], .calculator-container .form-group input[type="number"], .calculator-container .form-group select {
+    width: 100%;
+    height: 36px; /* reduced height */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* reduced font size */
+}
+
+.calculator-container .button-container {
+    margin-top: 20px;
+}
+
+.calculator-container .button-container button[type="submit"] {
+    width: 100%;
+    height: 36px; /* reduced height */
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* reduced font size */
+    font-weight: bold;
+}
+
+.calculator-container .button-container button[type="submit"]:hover {
+    background-color: #23527c;
+}
+
+/* Result Page Styles */
+
+.result-container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #b6cdec; /* light blue background */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-container h2 {
+    font-size: 24px; /* reduced font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #337ab7;
+}
+
+.result-container p {
+    font-size: 16px; /* reduced font size */
+    margin-bottom: 20px;
+}
+
+.result-container .result-box {
+    background-color: #e6b7c3;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-container .result-box h3 {
+    font-size: 18px; /* reduced font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #337ab7;
+}
+
+.result-container .result-box p {
+    font-size: 14px; /* reduced font size */
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 600px;
+    }
+    .calculator-container {
+        margin-top: 30px;
+    }
+    .result-container {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        max-width: 400px;
+    }
+    .calculator-container {
+        margin-top: 20px;
+    }
+    .result-container {
+        margin-top: 20px;
+    }
+}
